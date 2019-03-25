@@ -1,0 +1,2536 @@
+{
+    "docenti": [
+        {
+            "nome": "Apolloni Giovanna",
+            "classi": [
+                {
+                    "classe": "1EcA",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "3INTA",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "4INTA",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "5INTA",
+                    "materia": "Inglese"
+                }
+            ]
+        },
+        {
+            "nome": "Avino Giovanni",
+            "classi": [
+                {
+                    "classe": "1EcB",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "3INTA",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "4ELEB",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "5ELEB",
+                    "materia": "Matematica"
+                }
+            ]
+        },
+        {
+            "nome": "Badea Zinaida",
+            "classi": [
+                {
+                    "classe": "1EcA",
+                    "materia": "Geografia"
+                },
+                {
+                    "classe": "1EcB",
+                    "materia": "Geografia"
+                },
+                {
+                    "classe": "2EcA",
+                    "materia": "Geografia"
+                }
+            ]
+        },
+        {
+            "nome": "Benetello Luca",
+            "classi": [
+                {
+                    "classe": "2TA",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TB",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TC",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TD",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TE",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "5ELEA",
+                    "materia": "Elettronica"
+                },
+                {
+                    "classe": "5ELEB",
+                    "materia": "Elettronica"
+                }
+            ]
+        },
+        {
+            "nome": "Bentivoglio Rosalba",
+            "classi": [
+                {
+                    "classe": "4AFMA",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "5AFMA",
+                    "materia": "Italiano e Storia"
+                }
+            ]
+        },
+        {
+            "nome": "Bergami Tamara",
+            "classi": [
+                {
+                    "classe": "1EcB",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "1TD",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "2EcB",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "2TD",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "3ELEA",
+                    "materia": "Inglese"
+                }
+            ]
+        },
+        {
+            "nome": "Berti Mariangela",
+            "classi": [
+                {
+                    "classe": "3MMEA",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "3MMEB",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "4MMEA",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "5MMEA",
+                    "materia": "Matematica"
+                }
+            ]
+        },
+        {
+            "nome": "Bertoldi Lorenzo",
+            "classi": [
+                {
+                    "classe": "3TURA",
+                    "materia": "Discipline Turistiche"
+                },
+                {
+                    "classe": "3TURB",
+                    "materia": "Discipline Turistiche"
+                },
+                {
+                    "classe": "4TURA",
+                    "materia": "Discipline Turistiche"
+                },
+                {
+                    "classe": "5TURA",
+                    "materia": "Discipline Turistiche"
+                }
+            ]
+        },
+        {
+            "nome": "Besseghini Cinzia",
+            "classi": [
+                {
+                    "classe": "3TURB",
+                    "materia": "Diritto"
+                }
+            ]
+        },
+        {
+            "nome": "Blasiol Marcella",
+            "classi": [
+                {
+                    "classe": "1TE",
+                    "materia": "Italiano"
+                },
+                {
+                    "classe": "1TC",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "2TC",
+                    "materia": "Italiano e Storia"
+                }
+            ]
+        },
+        {
+            "nome": "Boccardo Alberto",
+            "classi": [
+                {
+                    "classe": "3INTA",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "4INTA",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "5INTA",
+                    "materia": "Informatica"
+                }
+            ]
+        },
+        {
+            "nome": "Bonetti Luca",
+            "classi": [
+                {
+                    "classe": "3ELEA",
+                    "materia": "CLIL"
+                },
+                {
+                    "classe": "4ELEA",
+                    "materia": "CLIL"
+                },
+                {
+                    "classe": "4ELEB",
+                    "materia": "CLIL"
+                },
+                {
+                    "classe": "5ELEA",
+                    "materia": "CLIL"
+                },
+                {
+                    "classe": "5ELEB",
+                    "materia": "CLIL"
+                }
+            ]
+        },
+        {
+            "nome": "Borghesi Francesco",
+            "classi": [
+                {
+                    "classe": "3CATA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "4CATA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "4INTA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "5CATA",
+                    "materia": "IRC"
+                }
+            ]
+        },
+        {
+            "nome": "Bottino Monica",
+            "classi": [
+                {
+                    "classe": "1EcC",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "1TE",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "2TE",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "3INTA",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "3CATA",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "3MMEB",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "4INTA",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "4CATA",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "5INTA",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "5CATA",
+                    "materia": "Scienze Motorie"
+                }
+            ]
+        },
+        {
+            "nome": "Bruno Antonio",
+            "classi": [
+                {
+                    "classe": "3ELEA",
+                    "materia": "Sistemi Automatici"
+                },
+                {
+                    "classe": "4ELEA",
+                    "materia": "Elettronica"
+                },
+                {
+                    "classe": "4ELEB",
+                    "materia": "Elettronica"
+                },
+                {
+                    "classe": "5ELEA",
+                    "materia": "Elettronica"
+                },
+                {
+                    "classe": "5ELEB",
+                    "materia": "Elettronica"
+                }
+            ]
+        },
+        {
+            "nome": "Cafarda Massimo",
+            "classi": [
+                {
+                    "classe": "1TA",
+                    "materia": "Chimica"
+                },
+                {
+                    "classe": "1TC",
+                    "materia": "Chimica"
+                },
+                {
+                    "classe": "1TE",
+                    "materia": "Chimica"
+                },
+                {
+                    "classe": "2TB",
+                    "materia": "Chimica"
+                },
+                {
+                    "classe": "2TD",
+                    "materia": "Chimica"
+                }
+            ]
+        },
+        {
+            "nome": "Callovi Valentina",
+            "classi": [
+                {
+                    "classe": "1EcA",
+                    "materia": "Tedesco"
+                },
+                {
+                    "classe": "1EcB",
+                    "materia": "Tedesco"
+                },
+                {
+                    "classe": "2EcA",
+                    "materia": "Tedesco"
+                },
+                {
+                    "classe": "2EcB",
+                    "materia": "Tedesco"
+                }
+            ]
+        },
+        {
+            "nome": "Calvo Iolanka",
+            "classi": [
+                {
+                    "classe": "1TA",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "2TA",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "2TE",
+                    "materia": "Italiano"
+                }
+            ]
+        },
+        {
+            "nome": "Capriglione Diego",
+            "classi": [
+                {
+                    "classe": "3INTA",
+                    "materia": "Telecomunicazioni"
+                },
+                {
+                    "classe": "3ELEA",
+                    "materia": "Tecnologie Elettroniche"
+                },
+                {
+                    "classe": "4ELEA",
+                    "materia": "Tecnologie Elettroniche"
+                },
+                {
+                    "classe": "4ELEB",
+                    "materia": "Tecnologie Elettroniche"
+                }
+            ]
+        },
+        {
+            "nome": "Carradore Mizio",
+            "classi": [
+                {
+                    "classe": "1EcA",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "2EcA",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "2EcB",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "3AFMA",
+                    "materia": "Matematica"
+                }
+            ]
+        },
+        {
+            "nome": "Caruso Emilio",
+            "classi": [
+                {
+                    "classe": "3TURA",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "4TURA",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "5TURA",
+                    "materia": "Italiano e Storia"
+                }
+            ]
+        },
+        {
+            "nome": "Cavallar Sergio",
+            "classi": [
+                {
+                    "classe": "3MMEA",
+                    "materia": "Meccanica e Disegno e Progettazione Industriale"
+                },
+                {
+                    "classe": "3MMEB",
+                    "materia": "Meccanica"
+                },
+                {
+                    "classe": "4MMEA",
+                    "materia": "Meccanica"
+                },
+                {
+                    "classe": "5MMEA",
+                    "materia": "Meccanica"
+                }
+            ]
+        },
+        {
+            "nome": "Cavattoni Maria Cristina",
+            "classi": [
+                {
+                    "classe": "1EcB",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "1EcC",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "2EcB",
+                    "materia": "IRC"
+                }
+            ]
+        },
+        {
+            "nome": "Coccarelli Andrea",
+            "classi": [
+                {
+                    "classe": "1TD",
+                    "materia": "Tecnologie Grafiche"
+                },
+                {
+                    "classe": "2TD",
+                    "materia": "Tecnologie Grafiche e Scienze Applicate"
+                },
+                {
+                    "classe": "2TA",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TB",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TC",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TE",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "3CATA",
+                    "materia": "CLIL"
+                },
+                {
+                    "classe": "4CATA",
+                    "materia": "CLIL"
+                },
+                {
+                    "classe": "5CATA",
+                    "materia": "CLIL e Cantiere e Sicurezza"
+                }
+            ]
+        },
+        {
+            "nome": "Conde Federico Gabriel",
+            "classi": [
+                {
+                    "classe": "4ELEA",
+                    "materia": "Sistemi Automatici"
+                },
+                {
+                    "classe": "4ELEB",
+                    "materia": "Sistemi Automatici"
+                },
+                {
+                    "classe": "5ELEA",
+                    "materia": "Sistemi Automatici"
+                },
+                {
+                    "classe": "5ELEB",
+                    "materia": "Sistemi Automatici"
+                }
+            ]
+        },
+        {
+            "nome": "Contini Mario",
+            "classi": [
+                {
+                    "classe": "1TD",
+                    "materia": "Fisica"
+                },
+                {
+                    "classe": "2TC",
+                    "materia": "Fisica"
+                },
+                {
+                    "classe": "2TE",
+                    "materia": "Fisica"
+                }
+            ]
+        },
+        {
+            "nome": "Corrente Luisa",
+            "classi": [
+                {
+                    "classe": "2TA",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TB",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TC",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TD",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TE",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "3INTA",
+                    "materia": "Tecnologie Informatiche"
+                },
+                {
+                    "classe": "4INTA",
+                    "materia": "Tecnologie Informatiche"
+                },
+                {
+                    "classe": "5INTA",
+                    "materia": "Tecnologie Informatiche e Gestione Progetto"
+                }
+            ]
+        },
+        {
+            "nome": "Covi Fabrizio",
+            "classi": [
+                {
+                    "classe": "3TURA",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "4TURA",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "4TURB",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "5TURA",
+                    "materia": "Inglese"
+                }
+            ]
+        },
+        {
+            "nome": "Crimì Cristina",
+            "classi": [
+                {
+                    "classe": "3TURB",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "3AFMA",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "4AFMA",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "5AFMA",
+                    "materia": "Inglese"
+                }
+            ]
+        },
+        {
+            "nome": "Crociani Luca",
+            "classi": [
+                {
+                    "classe": "3INTA",
+                    "materia": "Sistemi e Reti"
+                },
+                {
+                    "classe": "4INTA",
+                    "materia": "Sistemi e Reti"
+                },
+                {
+                    "classe": "5INTA",
+                    "materia": "Sistemi e Reti"
+                }
+            ]
+        },
+        {
+            "nome": "D'Agostino Elisa",
+            "classi": [
+                {
+                    "classe": "3ELEA",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "4ELEA",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "5ELEA",
+                    "materia": "Italiano e Storia"
+                }
+            ]
+        },
+        {
+            "nome": "de Concini Fabiola",
+            "classi": [
+                {
+                    "classe": "1EcC",
+                    "materia": "Economia Aziendale"
+                },
+                {
+                    "classe": "5AFMA",
+                    "materia": "Economia Aziendale"
+                },
+                {
+                    "classe": "5AFMB",
+                    "materia": "Economia Aziendale"
+                }
+            ]
+        },
+        {
+            "nome": "Degasperi Sabrina",
+            "classi": [
+                {
+                    "classe": "1TA",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "2TA",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "2EcA",
+                    "materia": "Inglese"
+                }
+            ]
+        },
+        {
+            "nome": "Delai Alessio",
+            "classi": [
+                {
+                    "classe": "3MMEA",
+                    "materia": "CLIL e Disegno e Progettazione Industriale"
+                },
+                {
+                    "classe": "3MMEB",
+                    "materia": "CLIL e Disegno e Progettazione Industriale"
+                },
+                {
+                    "classe": "4MMEA",
+                    "materia": "CLIL e Disegno e Progettazione Industriale"
+                },
+                {
+                    "classe": "5MMEA",
+                    "materia": "CLIL e Disegno e Progettazione Industriale e Sistemi e Automazione Industriale"
+                }
+            ]
+        },
+        {
+            "nome": "Deledda Gianni",
+            "classi": [
+                {
+                    "classe": "1EcB",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "1TC",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "2EcB",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "2TC",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "3AFMB",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "4ELEB",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "4AFMB",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "5AFMB",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "5ELEB",
+                    "materia": "Scienze Motorie"
+                }
+            ]
+        },
+        {
+            "nome": "Demichei Valeria",
+            "classi": [
+                {
+                    "classe": "3INTA",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "4INTA",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "5INTA",
+                    "materia": "Italiano e Storia"
+                }
+            ]
+        },
+        {
+            "nome": "Di Pietro Antonio",
+            "classi": [
+                {
+                    "classe": "2TA",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TB",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TC",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TD",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TE",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "3ELEA",
+                    "materia": "Tecnologie Elettroniche"
+                },
+                {
+                    "classe": "4ELEA",
+                    "materia": "Tecnologie Elettroniche"
+                },
+                {
+                    "classe": "4ELEB",
+                    "materia": "Tecnologie Elettroniche"
+                },
+                {
+                    "classe": "5ELEA",
+                    "materia": "Tecnologie Elettroniche"
+                },
+                {
+                    "classe": "5ELEB",
+                    "materia": "Tecnologie Elettroniche"
+                }
+            ]
+        },
+        {
+            "nome": "Di Stefano Fiorella",
+            "classi": [
+                {
+                    "classe": "1TB",
+                    "materia": "Tedesco"
+                },
+                {
+                    "classe": "1TD",
+                    "materia": "Tedesco"
+                },
+                {
+                    "classe": "2TA",
+                    "materia": "Tedesco"
+                },
+                {
+                    "classe": "3AFMA",
+                    "materia": "Tedesco"
+                },
+                {
+                    "classe": "4AFMA",
+                    "materia": "Tedesco"
+                },
+                {
+                    "classe": "5AFMA",
+                    "materia": "Tedesco"
+                }
+            ]
+        },
+        {
+            "nome": "Digregorio Francesco",
+            "classi": [
+                {
+                    "classe": "2EcB",
+                    "materia": "Economia Aziendale"
+                },
+                {
+                    "classe": "3AFMB",
+                    "materia": "Economia Aziendale"
+                },
+                {
+                    "classe": "4AFMB",
+                    "materia": "Economia Aziendale"
+                }
+            ]
+        },
+        {
+            "nome": "Dusini Marco",
+            "classi": [
+                {
+                    "classe": "1TA",
+                    "materia": "Chimica"
+                },
+                {
+                    "classe": "1TC",
+                    "materia": "Chimica"
+                },
+                {
+                    "classe": "2TB",
+                    "materia": "Chimica"
+                }
+            ]
+        },
+        {
+            "nome": "Finizio Michele",
+            "classi": [
+                {
+                    "classe": "3MMEA",
+                    "materia": "CLIL e Disegno e Progettazione Industriale"
+                },
+                {
+                    "classe": "3MMEB",
+                    "materia": "CLIL e Disegno e Progettazione Industriale"
+                },
+                {
+                    "classe": "4MMEA",
+                    "materia": "CLIL e Disegno e Progettazione Industriale"
+                },
+                {
+                    "classe": "5MMEA",
+                    "materia": "CLIL e Disegno e Progettazione Industriale"
+                }
+            ]
+        },
+        {
+            "nome": "Folda Francesco",
+            "classi": [
+                {
+                    "classe": "1EcA",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "1TB",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "2TB",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "3ELEA",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "3AFMA",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "4AFMA",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "4ELEA",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "5AFMA",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "5ELEA",
+                    "materia": "Scienze Motorie"
+                }
+            ]
+        },
+        {
+            "nome": "Francisci Annalisa",
+            "classi": [
+                {
+                    "classe": "1TA",
+                    "materia": "Diritto ed Economia"
+                },
+                {
+                    "classe": "1TC",
+                    "materia": "Diritto ed Economia"
+                },
+                {
+                    "classe": "2TB",
+                    "materia": "Diritto ed Economia"
+                },
+                {
+                    "classe": "2TD",
+                    "materia": "Diritto ed Economia"
+                }
+            ]
+        },
+        {
+            "nome": "Frizzo Giampietro",
+            "classi": [
+                {
+                    "classe": "3CATA",
+                    "materia": "Topografia e Costruzioni"
+                },
+                {
+                    "classe": "4CATA",
+                    "materia": "Topografia e Costruzioni"
+                },
+                {
+                    "classe": "5CATA",
+                    "materia": "Topografia e Costruzioni"
+                }
+            ]
+        },
+        {
+            "nome": "Fugaro Giuliana",
+            "classi": [
+                {
+                    "classe": "3ELEA",
+                    "materia": "Sistemi Automatici"
+                },
+                {
+                    "classe": "4ELEA",
+                    "materia": "Sistemi Automatici"
+                },
+                {
+                    "classe": "5ELEA",
+                    "materia": "Sistemi Automatici"
+                },
+                {
+                    "classe": "5ELEB",
+                    "materia": "Sistemi Automatici"
+                }
+            ]
+        },
+        {
+            "nome": "Galvan Alessandro",
+            "classi": [
+                {
+                    "classe": "3TURA",
+                    "materia": "Arte"
+                },
+                {
+                    "classe": "3TURB",
+                    "materia": "Arte"
+                },
+                {
+                    "classe": "4TURA",
+                    "materia": "Arte"
+                },
+                {
+                    "classe": "4TURB",
+                    "materia": "Arte"
+                },
+                {
+                    "classe": "5TURA",
+                    "materia": "Arte"
+                }
+            ]
+        },
+        {
+            "nome": "Gammuto Teresa",
+            "classi": [
+                {
+                    "classe": "1TB",
+                    "materia": "Italiano"
+                },
+                {
+                    "classe": "2TB",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "3AFMB",
+                    "materia": "Italiano e Storia"
+                }
+            ]
+        },
+        {
+            "nome": "Giancotti Eraldo",
+            "classi": [
+                {
+                    "classe": "1TA",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "1TB",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "1TD",
+                    "materia": "Matematica"
+                }
+            ]
+        },
+        {
+            "nome": "Giliberto Letizia",
+            "classi": [
+                {
+                    "classe": "3MMEA",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "4MMEA",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "5MMEA",
+                    "materia": "Italiano e Storia"
+                }
+            ]
+        },
+        {
+            "nome": "Gionta Valentina",
+            "classi": [
+                {
+                    "classe": "3AFMB",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "4AFMB",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "5AFMB",
+                    "materia": "Matematica"
+                }
+            ]
+        },
+        {
+            "nome": "Girardi Chiara",
+            "classi": [
+                {
+                    "classe": "4ELEB",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "5ELEB",
+                    "materia": "Italiano e Storia"
+                }
+            ]
+        },
+        {
+            "nome": "Giungato Tommaso",
+            "classi": [
+                {
+                    "classe": "2EcA",
+                    "materia": "Economia Aziendale"
+                },
+                {
+                    "classe": "3AFMA",
+                    "materia": "Economia Aziendale"
+                },
+                {
+                    "classe": "4AFMA",
+                    "materia": "Economia Aziendale"
+                },
+                {
+                    "classe": "4TURB",
+                    "materia": "Discipline Turistiche"
+                }
+            ]
+        },
+        {
+            "nome": "Inama Lia",
+            "classi": [
+                {
+                    "classe": "1TA",
+                    "materia": "Scienze Terra"
+                },
+                {
+                    "classe": "1TB",
+                    "materia": "Scienze Terra"
+                },
+                {
+                    "classe": "1TC",
+                    "materia": "Scienze Terra"
+                },
+                {
+                    "classe": "1TD",
+                    "materia": "Scienze Terra"
+                },
+                {
+                    "classe": "1TE",
+                    "materia": "Scienze Terra"
+                },
+                {
+                    "classe": "2TA",
+                    "materia": "Scienze Terra"
+                },
+                {
+                    "classe": "2TB",
+                    "materia": "Scienze Terra"
+                },
+                {
+                    "classe": "2TC",
+                    "materia": "Scienze Terra"
+                },
+                {
+                    "classe": "2TD",
+                    "materia": "Scienze Terra"
+                }
+            ]
+        },
+        {
+            "nome": "Inama Saverio",
+            "classi": [
+                {
+                    "classe": "3MMEA",
+                    "materia": "Sistemi e Automazione Industriale"
+                },
+                {
+                    "classe": "3MMEB",
+                    "materia": "Sistemi e Automazione Industriale e Tecnologie Meccaniche"
+                },
+                {
+                    "classe": "4MMEA",
+                    "materia": "Sistemi e Automazione Industriale"
+                },
+                {
+                    "classe": "5MMEA",
+                    "materia": "Sistemi e Automazione Industriale"
+                }
+            ]
+        },
+        {
+            "nome": "La Grutta Emanuela",
+            "classi": [
+                {
+                    "classe": "3CATA",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "4CATA",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "4ELEA",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "5CATA",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "5ELEA",
+                    "materia": "Inglese"
+                }
+            ]
+        },
+        {
+            "nome": "Larcher Mario",
+            "classi": [
+                {
+                    "classe": "3CATA",
+                    "materia": "Costruzioni"
+                },
+                {
+                    "classe": "4CATA",
+                    "materia": "Costruzioni"
+                }
+            ]
+        },
+        {
+            "nome": "",
+            "classi": [
+                {
+                    "classe": "",
+                    "materia": ""
+                },
+                {
+                    "classe": "",
+                    "materia": ""
+                },
+                {
+                    "classe": "",
+                    "materia": ""
+                },
+                {
+                    "classe": "",
+                    "materia": ""
+                }
+            ]
+        },
+        {
+            "nome": "Luisi Manuela",
+            "classi": [
+                {
+                    "classe": "1TE",
+                    "materia": "Tedesco"
+                },
+                {
+                    "classe": "1EcC",
+                    "materia": "Tedesco"
+                },
+                {
+                    "classe": "3TURA",
+                    "materia": "Tedesco"
+                },
+                {
+                    "classe": "3TURB",
+                    "materia": "Tedesco"
+                },
+                {
+                    "classe": "4TURA",
+                    "materia": "Tedesco"
+                },
+                {
+                    "classe": "4TURB",
+                    "materia": "Tedesco"
+                },
+                {
+                    "classe": "5TURA",
+                    "materia": "Tedesco"
+                }
+            ]
+        },
+        {
+            "nome": "Maffei Elena",
+            "classi": [
+                {
+                    "classe": "1EcB",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "1EcC",
+                    "materia": "Italiano"
+                },
+                {
+                    "classe": "2EcB",
+                    "materia": "Italiano e Storia"
+                }
+            ]
+        },
+        {
+            "nome": "Magnani Ilaria",
+            "classi": [
+                {
+                    "classe": "1TB",
+                    "materia": "Fisica"
+                },
+                {
+                    "classe": "1EcB",
+                    "materia": "Fisica"
+                },
+                {
+                    "classe": "2TA",
+                    "materia": "Fisica"
+                }
+            ]
+        },
+        {
+            "nome": "Maino Giorgio",
+            "classi": [
+                {
+                    "classe": "2TE",
+                    "materia": "Diritto ed Economia"
+                },
+                {
+                    "classe": "3AFMA",
+                    "materia": "Economia Politica e Diritto"
+                }
+            ]
+        },
+        {
+            "nome": "",
+            "classi": [
+                {
+                    "classe": "",
+                    "materia": ""
+                },
+                {
+                    "classe": "",
+                    "materia": ""
+                },
+                {
+                    "classe": "",
+                    "materia": ""
+                },
+                {
+                    "classe": "",
+                    "materia": ""
+                }
+            ]
+        },
+        {
+            "nome": "Malalan Giuliana",
+            "classi": [
+                {
+                    "classe": "1TA",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "2TA",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "3TURA",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "3TURB",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "3MMEA",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "4TURA",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "4TURB",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "4MMEA",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "5TURA",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "5MMEA",
+                    "materia": "Scienze Motorie"
+                }
+            ]
+        },
+        {
+            "nome": "Marasco Luigi",
+            "classi": [
+                {
+                    "classe": "2TC",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "3ELEA",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "4ELEA",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "5ELEA",
+                    "materia": "Matematica"
+                }
+            ]
+        },
+        {
+            "nome": "Marasco Roberta Ursula",
+            "classi": [
+                {
+                    "classe": "1TA",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "1TB",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "1TC",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "1TD",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "2EcA",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "2EcB",
+                    "materia": "Informatica"
+                }
+            ]
+        },
+        {
+            "nome": "Marchetti Luigi",
+            "classi": [
+                {
+                    "classe": "3CATA",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "4CATA",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "5CATA",
+                    "materia": "Matematica"
+                }
+            ]
+        },
+        {
+            "nome": "Marini Domenico",
+            "classi": [
+                {
+                    "classe": "1TA",
+                    "materia": "Tecnologie Grafiche"
+                },
+                {
+                    "classe": "1TB",
+                    "materia": "Tecnologie Grafiche"
+                },
+                {
+                    "classe": "1TC",
+                    "materia": "Tecnologie Grafiche"
+                },
+                {
+                    "classe": "1TD",
+                    "materia": "Tecnologie Grafiche"
+                },
+                {
+                    "classe": "1TE",
+                    "materia": "Tecnologie Grafiche"
+                },
+                {
+                    "classe": "2TA",
+                    "materia": "Tecnologie Grafiche"
+                },
+                {
+                    "classe": "2TB",
+                    "materia": "Tecnologie Grafiche"
+                },
+                {
+                    "classe": "2TC",
+                    "materia": "Tecnologie Grafiche"
+                },
+                {
+                    "classe": "2TD",
+                    "materia": "Tecnologie Grafiche"
+                },
+                {
+                    "classe": "2TE",
+                    "materia": "Tecnologie Grafiche"
+                }
+            ]
+        },
+        {
+            "nome": "Marini Natascia",
+            "classi": [
+                {
+                    "classe": "1TB",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "1TC",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "1TE",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "2TB",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "2TC",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "2TE",
+                    "materia": "Inglese"
+                }
+            ]
+        },
+        {
+            "nome": "Martini Luca",
+            "classi": [
+                {
+                    "classe": "1TE",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "3INTA",
+                    "materia": "Sistemi e Reti e Tecnologie Informatiche"
+                },
+                {
+                    "classe": "4INTA",
+                    "materia": "Sistemi e Reti e Tecnologie Informatiche"
+                },
+                {
+                    "classe": "4AFMA",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "5INTA",
+                    "materia": "Sistemi e Reti e Tecnologie Informatiche"
+                }
+            ]
+        },
+        {
+            "nome": "Mattivi Elisabetta",
+            "classi": [
+                {
+                    "classe": "3TURB",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "4TURB",
+                    "materia": "Italiano e Storia"
+                }
+            ]
+        },
+        {
+            "nome": "Mei Barbara",
+            "classi": [
+                {
+                    "classe": "3TURA",
+                    "materia": "Spagnolo"
+                },
+                {
+                    "classe": "3TURB",
+                    "materia": "Spagnolo"
+                },
+                {
+                    "classe": "4TURA",
+                    "materia": "Spagnolo"
+                },
+                {
+                    "classe": "4TURB",
+                    "materia": "Spagnolo"
+                }
+            ]
+        },
+        {
+            "nome": "Montelli Luisa",
+            "classi": [
+                {
+                    "classe": "2TA",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "2TB",
+                    "materia": "Matematica"
+                }
+            ]
+        },
+        {
+            "nome": "Moser Genny",
+            "classi": [
+                {
+                    "classe": "1TD",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "2TD",
+                    "materia": "Italiano e Storia"
+                }
+            ]
+        },
+        {
+            "nome": "Odorizzi Angela",
+            "classi": [
+                {
+                    "classe": "1TB",
+                    "materia": "Storia"
+                },
+                {
+                    "classe": "4AFMB",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "5AFMB",
+                    "materia": "Italiano e Storia"
+                }
+            ]
+        },
+        {
+            "nome": "Odorizzi Lara",
+            "classi": [
+                {
+                    "classe": "1EcA",
+                    "materia": "Scienze Terra"
+                },
+                {
+                    "classe": "1EcB",
+                    "materia": "Scienze Terra"
+                },
+                {
+                    "classe": "1EcC",
+                    "materia": "Scienze Terra"
+                },
+                {
+                    "classe": "2EcB",
+                    "materia": "Scienze Terra"
+                },
+                {
+                    "classe": "2TE",
+                    "materia": "Scienze Terra"
+                }
+            ]
+        },
+        {
+            "nome": "Odorizzi Marco",
+            "classi": [
+                {
+                    "classe": "1EcA",
+                    "materia": "Diritto ed Economia"
+                },
+                {
+                    "classe": "3AFMB",
+                    "materia": "Economia Politica e Diritto"
+                },
+                {
+                    "classe": "4AFMA",
+                    "materia": "Economia Politica e Diritto"
+                },
+                {
+                    "classe": "4AFMB",
+                    "materia": "Economia Politica e Diritto"
+                }
+            ]
+        },
+        {
+            "nome": "Pancheri Ivo",
+            "classi": [
+                {
+                    "classe": "1EcC",
+                    "materia": "Geografia"
+                },
+                {
+                    "classe": "3TURA",
+                    "materia": "Geografia"
+                },
+                {
+                    "classe": "3TURB",
+                    "materia": "Geografia"
+                },
+                {
+                    "classe": "4TURA",
+                    "materia": "Geografia"
+                },
+                {
+                    "classe": "4TURB",
+                    "materia": "Geografia"
+                },
+                {
+                    "classe": "5TURA",
+                    "materia": "Geografia"
+                }
+            ]
+        },
+        {
+            "nome": "Pancheri Stefano",
+            "classi": [
+                {
+                    "classe": "2TA",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TB",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TC",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TD",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TE",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "3INTA",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "3AFMA",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "3AFMB",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "4INTA",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "4AFMB",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "5INTA",
+                    "materia": "Informatica"
+                }
+            ]
+        },
+        {
+            "nome": "Paradisi Fernanda",
+            "classi": [
+                {
+                    "classe": "1EcB",
+                    "materia": "Diritto ed Economia"
+                },
+                {
+                    "classe": "5AFMA",
+                    "materia": "Economia Politica e Diritto"
+                },
+                {
+                    "classe": "5AFMB",
+                    "materia": "Economia Politica e Diritto"
+                }
+            ]
+        },
+        {
+            "nome": "Paragallo Manuela",
+            "classi": [
+                {
+                    "classe": "1TE",
+                    "materia": "Storia"
+                },
+                {
+                    "classe": "2TE",
+                    "materia": "Storia"
+                },
+                {
+                    "classe": "3AFMA",
+                    "materia": "Storia"
+                },
+                {
+                    "classe": "3MMEB",
+                    "materia": "Storia"
+                }
+            ]
+        },
+        {
+            "nome": "Pedrotti Alfonso",
+            "classi": [
+                {
+                    "classe": "1EcA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "2EcA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "3MMEA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "3MMEB",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "3AFMA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "3AFMB",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "3TURA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "3TURB",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "4MMEA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "4AFMA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "4AFMB",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "4TURA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "5AFMA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "5TURA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "5MMEA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "5AFMB",
+                    "materia": "IRC"
+                }
+            ]
+        },
+        {
+            "nome": "Pianegiani Fernando",
+            "classi": [
+                {
+                    "classe": "3ELEA",
+                    "materia": "Elettronica"
+                },
+                {
+                    "classe": "4ELEA",
+                    "materia": "Elettronica"
+                },
+                {
+                    "classe": "4ELEB",
+                    "materia": "Elettronica"
+                }
+            ]
+        },
+        {
+            "nome": "Preti Gionny",
+            "classi": [
+                {
+                    "classe": "3MMEA",
+                    "materia": "Tecnologie Meccaniche e Sistemi e Automazione Industriale"
+                },
+                {
+                    "classe": "3MMEB",
+                    "materia": "Tecnologie Meccaniche e Sistemi e Automazione Industriale"
+                },
+                {
+                    "classe": "4MMEA",
+                    "materia": "Tecnologie Meccaniche e Sistemi e Automazione Industriale"
+                },
+                {
+                    "classe": "5MMEA",
+                    "materia": "Tecnologie Meccaniche"
+                }
+            ]
+        },
+        {
+            "nome": "Pretti Laura",
+            "classi": [
+                {
+                    "classe": "2EcA",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "2EcB",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "3AFMA",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "3AFMB",
+                    "materia": "Informatica"
+                }
+            ]
+        },
+        {
+            "nome": "Renna Antonio",
+            "classi": [
+                {
+                    "classe": "4INTA",
+                    "materia": "Telecomunicazioni"
+                },
+                {
+                    "classe": "4ELEB",
+                    "materia": "Sistemi Automatici"
+                },
+                {
+                    "classe": "5ELEA",
+                    "materia": "Tecnologie Elettroniche"
+                },
+                {
+                    "classe": "5ELEB",
+                    "materia": "Tecnologie Elettroniche"
+                }
+            ]
+        },
+        {
+            "nome": "Rigotti Elena",
+            "classi": [
+                {
+                    "classe": "2TC",
+                    "materia": "Tedesco"
+                },
+                {
+                    "classe": "3AFMB",
+                    "materia": "Tedesco"
+                },
+                {
+                    "classe": "4AFMB",
+                    "materia": "Tedesco"
+                },
+                {
+                    "classe": "5AMFB",
+                    "materia": "Tedesco"
+                }
+            ]
+        },
+        {
+            "nome": "Rizzoli Mauro",
+            "classi": [
+                {
+                    "classe": "3CATA",
+                    "materia": "Cantiere e Sicurezza"
+                },
+                {
+                    "classe": "4CATA",
+                    "materia": "Cantiere e Sicurezza e Topografia"
+                },
+                {
+                    "classe": "5CATA",
+                    "materia": "Costruzioni e Topografia"
+                }
+            ]
+        },
+        {
+            "nome": "Rosani Ivana",
+            "classi": [
+                {
+                    "classe": "3TURA",
+                    "materia": "Diritto"
+                },
+                {
+                    "classe": "3TURB",
+                    "materia": "CLIL"
+                },
+                {
+                    "classe": "4TURA",
+                    "materia": "Diritto"
+                },
+                {
+                    "classe": "4TURB",
+                    "materia": "Diritto"
+                },
+                {
+                    "classe": "5TURA",
+                    "materia": "Diritto"
+                }
+            ]
+        },
+        {
+            "nome": "Russo Costantino",
+            "classi": [
+                {
+                    "classe": "3AFMB",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "4AFMB",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "4ELEB",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "5AFMB",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "5ELEB",
+                    "materia": "Inglese"
+                }
+            ]
+        },
+        {
+            "nome": "Salazer Lisa",
+            "classi": [
+                {
+                    "classe": "3AFMA",
+                    "materia": "Marketing"
+                },
+                {
+                    "classe": "3AFMB",
+                    "materia": "Marketing"
+                },
+                {
+                    "classe": "4AFMA",
+                    "materia": "Marketing"
+                },
+                {
+                    "classe": "4AFMB",
+                    "materia": "Marketing"
+                },
+                {
+                    "classe": "5AFMA",
+                    "materia": "Marketing"
+                },
+                {
+                    "classe": "5AFMB",
+                    "materia": "Marketing"
+                }
+            ]
+        },
+        {
+            "nome": "Sandri Mario",
+            "classi": [
+                {
+                    "classe": "4AFMA",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "5AFMA",
+                    "materia": "Matematica"
+                }
+            ]
+        },
+        {
+            "nome": "Sandri Nadia",
+            "classi": [
+                {
+                    "classe": "1EcC",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "3MMEA",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "3MMEB",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "4MMEA",
+                    "materia": "Inglese"
+                },
+                {
+                    "classe": "5MMEA",
+                    "materia": "Inglese"
+                }
+            ]
+        },
+        {
+            "nome": "Scandella Michele",
+            "classi": [
+                {
+                    "classe": "3CATA",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "4CATA",
+                    "materia": "Italiano e Storia"
+                },
+                {
+                    "classe": "5CATA",
+                    "materia": "Italiano e Storia"
+                }
+            ]
+        },
+        {
+            "nome": "Scarbolo Claudio",
+            "classi": [
+                {
+                    "classe": "1EcC",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "1TE",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "2TE",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "2TD",
+                    "materia": "Matematica"
+                }
+            ]
+        },
+        {
+            "nome": "Schwarz Riccardo",
+            "classi": [
+                {
+                    "classe": "1TE",
+                    "materia": "Tecnologie Grafiche"
+                },
+                {
+                    "classe": "2TE",
+                    "materia": "Tecnologie Grafiche"
+                }
+            ]
+        },
+        {
+            "nome": "Scionti Massimo",
+            "classi": [
+                {
+                    "classe": "1Eca",
+                    "materia": "Chimica"
+                },
+                {
+                    "classe": "1ECc",
+                    "materia": "Chimica"
+                },
+                {
+                    "classe": "1TE",
+                    "materia": "Chimica"
+                },
+                {
+                    "classe": "2TD",
+                    "materia": "Chimica"
+                }
+            ]
+        },
+        {
+            "nome": "Tabarelli Daniele",
+            "classi": [
+                {
+                    "classe": "2EcA",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "1TD",
+                    "materia": "Scienze Motorie"
+                },
+                {
+                    "classe": "2TD",
+                    "materia": "Scienze Motorie"
+                }
+            ]
+        },
+        {
+            "nome": "Tolotti Walter",
+            "classi": [
+                {
+                    "classe": "3CATA",
+                    "materia": "Topografia"
+                }
+            ]
+        },
+        {
+            "nome": "Tomasi Cristian",
+            "classi": [
+                {
+                    "classe": "1TB",
+                    "materia": "Fisica"
+                },
+                {
+                    "classe": "1TD",
+                    "materia": "Fisica"
+                },
+                {
+                    "classe": "2TA",
+                    "materia": "Fisica"
+                },
+                {
+                    "classe": "2TC",
+                    "materia": "Fisica"
+                },
+                {
+                    "classe": "2TE",
+                    "materia": "Fisica"
+                }
+            ]
+        },
+        {
+            "nome": "Torresani Fulvio",
+            "classi": [
+                {
+                    "classe": "4INTA",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "5INTA",
+                    "materia": "Matematica"
+                }
+            ]
+        },
+        {
+            "nome": "Tranquillini Roberto",
+            "classi": [
+                {
+                    "classe": "1TA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "1TB",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "1TC",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "1TD",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "1TE",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "2TA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "2TB",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "2TC",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "2TD",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "2TE",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "3INTA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "3ELEA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "4ELEA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "4ELEB",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "4TURB",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "5ELEA",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "5ELEB",
+                    "materia": "IRC"
+                },
+                {
+                    "classe": "5INTA",
+                    "materia": "IRC"
+                }
+            ]
+        },
+        {
+            "nome": "Turri Federica",
+            "classi": [
+                {
+                    "classe": "1TA",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "1TB",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "1TC",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "1TD",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "1TE",
+                    "materia": "Informatica"
+                },
+                {
+                    "classe": "2TA",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TB",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TC",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TD",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TE",
+                    "materia": "Scienze Applicate"
+                }
+            ]
+        },
+        {
+            "nome": "Valli Sergio",
+            "classi": [
+                {
+                    "classe": "1TC",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "3TURA",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "3TURB",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "4TURA",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "4TURB",
+                    "materia": "Matematica"
+                },
+                {
+                    "classe": "5TURA",
+                    "materia": "Matematica"
+                }
+            ]
+        },
+        {
+            "nome": "Vecchione Antonella",
+            "classi": [
+                {
+                    "classe": "3CATA",
+                    "materia": "Estimo"
+                },
+                {
+                    "classe": "4CATA",
+                    "materia": "Estimo"
+                },
+                {
+                    "classe": "5CATA",
+                    "materia": "Estimo"
+                }
+            ]
+        },
+        {
+            "nome": "Verga Aron",
+            "classi": [
+                {
+                    "classe": "3TURA",
+                    "materia": "Francese"
+                },
+                {
+                    "classe": "4TURA",
+                    "materia": "Francese"
+                },
+                {
+                    "classe": "5TURA",
+                    "materia": "Francese"
+                }
+            ]
+        },
+        {
+            "nome": "Vistin Cesare",
+            "classi": [
+                {
+                    "classe": "2TA",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TB",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TC",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TD",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "2TE",
+                    "materia": "Scienze Applicate"
+                },
+                {
+                    "classe": "3MMEA",
+                    "materia": "Tecnologie Meccaniche"
+                },
+                {
+                    "classe": "4MMEA",
+                    "materia": "Tecnologie Meccaniche"
+                },
+                {
+                    "classe": "5MMEA",
+                    "materia": "Tecnologie Meccaniche"
+                }
+            ]
+        },
+        {
+            "nome": "Zucal Onorio",
+            "classi": [
+                {
+                    "classe": "1TA",
+                    "materia": "Tecnologie Grafiche"
+                },
+                {
+                    "classe": "1TB",
+                    "materia": "Tecnologie Grafiche"
+                },
+                {
+                    "classe": "1TC",
+                    "materia": "Tecnologie Grafiche"
+                },
+                {
+                    "classe": "2TA",
+                    "materia": "Tecnologie Grafiche"
+                },
+                {
+                    "classe": "2TB",
+                    "materia": "Tecnologie Grafiche"
+                },
+                {
+                    "classe": "2TC",
+                    "materia": "Tecnologie Grafiche"
+                }
+            ]
+        },
+        {
+            "nome": "Zuech Veronica",
+            "classi": [
+                {
+                    "classe": "1EcA",
+                    "materia": "Storia"
+                },
+                {
+                    "classe": "1EcC",
+                    "materia": "Storia"
+                },
+                {
+                    "classe": "2EcA",
+                    "materia": "Storia"
+                }
+            ]
+        }
+    ]
+}
