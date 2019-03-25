@@ -1,0 +1,92 @@
+{
+    "udienze": [
+        {
+            "studente": "Zanon Denise",
+            "classe": "2 ECA",
+            "prenotazioni": [
+                {
+                    "docente": "Carradore Mizio",
+                    "orario": "14:30"
+                },
+                {
+                    "docente": "Giungato Tommaso",
+                    "orario": "14:48"
+                }
+            ]
+        },
+        {
+            "studente": "Pedrotti Debora",
+            "classe": "2 ECB",
+            "prenotazioni": [
+                {
+                    "docente": "Carradore Mizio",
+                    "orario": "9:38"
+                },
+                {
+                    "docente": "Odorizzi Lara",
+                    "orario": "11:20"
+                }
+            ]
+        },
+        {
+            "studente": "Idba Abdel Jalil",
+            "classe": "1 ECB",
+            "prenotazioni": [
+                {
+                    "docente": "Deledda Gianni",
+                    "orario": "14:11"
+                }
+            ]
+        },
+        {
+            "studente": "Berti Marion Gabriel",
+            "classe": "1 TB",
+            "prenotazioni": [
+                {
+                    "docente": "Di Stefano Fiorella",
+                    "orario": "11:20"
+                }
+            ]
+        },
+        {
+            "studente": "Emer Gabriele",
+            "classe": "1 TB",
+            "prenotazioni": [
+                {
+                    "docente": "Di Stefano Fiorella",
+                    "orario": "14:53"
+                }
+            ]
+        },
+        {
+            "studente": "Gabardi Francesco",
+            "classe": "1 TA",
+            "prenotazioni": [
+                {
+                    "docente": "Francisci Annalisa",
+                    "orario": "9:30"
+                }
+            ]
+        },
+        {
+            "studente": "Bergamo Igor",
+            "classe": "2 TE",
+            "prenotazioni": [
+                {
+                    "docente": "Odorizzi Lara",
+                    "orario": "11:28"
+                }
+            ]
+        },
+        {
+            "studente": "Depaoli Jessica",
+            "classe": "1 ECC",
+            "prenotazioni": [
+                {
+                    "docente": "Odorizzi Lara",
+                    "orario": "11:36"
+                }
+            ]
+        }
+    ]
+}
