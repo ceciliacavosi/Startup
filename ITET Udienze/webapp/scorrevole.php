@@ -1,5 +1,6 @@
 <html>
 	<head>
+	<title>Udienze attuali</title>
 		<?php
 		$udienze;
 		$docenti;
@@ -101,6 +102,7 @@
 				text-align: center;
 			}
 		</style>
+		
 	</head>
 	
 	<body>
