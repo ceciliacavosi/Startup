@@ -5,7 +5,9 @@
 </head>
 
     <body>
-        <img src="\Immagini\Pilati.jpg" id="img">
+	<a href="https://www.istitutopilati.it" target="_blank">
+        <img src="Immagini\Pilati.jpg" id="img">
+	</a>
         <div id="div">
             <div id="div2">
             <?php
