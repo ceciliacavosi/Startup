@@ -58,7 +58,7 @@
 				text-align:center;
 				height: 50px;
 				color:#332d2d;
-				background-color:rgba(167, 247, 243, 0.712);
+				background-color:#b8efec;
 				font-size:16px;
 			}
 
@@ -74,14 +74,14 @@
 
 			.intestazionedata{
 				text-align: center;
-				background-color:#91BBFF;
+				background-color:#68a1ff;
 				font-size:20px;
 				height: 50px;
 			}
 
 			.intestazione{
 				width:50%;
-				background-color:#C1D9FF;
+				background-color:#68a1ff;
 				font-size:15px;
 				height: 50px;
 			}
@@ -90,7 +90,7 @@
 				text-align:center;
 				width:20%;
 				color:#505050;
-				background-color:rgba(167, 247, 243, 0.712);
+				background-color:#b8efec;
 				font-size:15pt;
 				
 			}
@@ -99,10 +99,10 @@
 				text-align:center;
 				width:20%;
 				color:#505050;
-				background-color:whitesmoke;
+				background-color:#e1eaea;
 				font-size:15pt;
 			}
-			
+
 			#noudienze {
 				position: absolute;
 				top: 50%;
