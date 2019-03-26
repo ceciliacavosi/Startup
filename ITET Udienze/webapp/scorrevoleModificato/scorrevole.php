@@ -1,5 +1,6 @@
 <html>
 	<head>
+	<title>Udienze attuali</title>
 		<?php
 		$udienze;
 		$docenti;
@@ -33,67 +34,75 @@
 		?>
 		<meta charset=utf8>
 		<style>
-			::-webkit-scrollbar {
-				display: none;
-			}
 			html{
-				font-family:arial;
+    			font-family:arial;
 			}
+			
 			.table-responsive{
 				position: absolute;
-				overflow-y: auto;
 				top: 142px;
 				bottom: 8px;
 				left: 8px;
 				width: calc(100% - 16px);
+				overflow-y: auto;
+				overflow:hidden;				
 			}
+
 			.itp{
 				width: calc(100% - 16px);
 				position: absolute;
 				bottom: 8px;
 			}
+
 			.itpCella{
 				text-align:center;
-				height: 66px;
-				color:#505050;
-				background-color:whitesmoke;
+				height: 50px;
+				color:#332d2d;
+				background-color:rgba(167, 247, 243, 0.712);
 				font-size:16px;
 			}
+
 			table{
 				width:100%;
-                border-collapse: collapse;
+				border-collapse: collapse;
 			}
+
 			td,th{
-				padding:24px;
+				padding:20px;
 				background:#eee;
 			}
 
 			.intestazionedata{
+				text-align: center;
 				background-color:#91BBFF;
 				font-size:20px;
-				height: 66px;
+				height: 50px;
 			}
+
 			.intestazione{
 				width:50%;
 				background-color:#C1D9FF;
-				font-size:16px;
-				height: 66px;
-				font-weight:bold; 
+				font-size:15px;
+				height: 50px;
 			}
+
 			.cellaStudente{
 				text-align:center;
 				width:20%;
-				color:orange;
-				background-color:gainsboro;
-				font-size:20pt; 
+				color:#505050;
+				background-color:rgba(167, 247, 243, 0.712);
+				font-size:15pt;
+				
 			}
+
 			.cellaPrenotazione{
 				text-align:center;
 				width:20%;
 				color:#505050;
 				background-color:whitesmoke;
-				font-size:16pt;
+				font-size:15pt;
 			}
+			
 			#noudienze {
 				position: absolute;
 				top: 50%;
@@ -101,8 +110,8 @@
 				transform: translateX(-50%) translateY(-50%);
 				text-align: center;
 			}
-			
 		</style>
+		
 	</head>
 	
 	<body>
@@ -111,7 +120,9 @@
 			?>
 			<table>
 				<tr>
-				<th class=intestazionedata colspan=2><div style="float: left; width: calc(100%/3);"><?php echo date("d/m/Y"); ?></div>ITET Udienze<div style="float: right; width: calc(100%/3);"><?php echo date("H:i"); ?></div></th>
+				    
+					<th class=intestazionedata colspan=2><div style="float: left; width: calc(100%/3);"><?php echo date("d/m/Y"); ?></div>ITET Udienze<div style="float: right; width: calc(100%/3);"><?php echo date("H:i"); ?></div></th>
+					
 				</tr>
 				<tr>
 					<th class=intestazione>Studente</th>
@@ -119,10 +130,9 @@
 				</tr>
 			</table>
 			<div class="table-responsive">
-				<table>
+				<table class="table-separata">
 					<?php
 					$hasDrawn = false;
-
 					foreach($udienze as $udienza){
 						
 						$show = false;
@@ -132,7 +142,7 @@
 							}
 						}
 
-						if(!$show) { continue; }
+						if(!$show) { continue; }					
 						?>
 						<tr>
 							<td class=cellaStudente><?php echo $udienza->studente; ?></td>
@@ -172,23 +182,33 @@
 			</div>
 			<?php
 		}
-
 		if(!$hasDrawn) {
 			?>
-			<h1 id=noudienze>Nessuna udienza prorammata per questa giornata.</h1>
-			<?php
+			  <h1 id=noudienze>Nessuna udienza prorammata per questa giornata.</h1>
+		<?php
 		}
 		?>
+		<script src="jquery.min.js"></script>
 		<script>
-			var flag=1;	
-			setTimeout(check, 20000);
-			
-			function check() {
-				if(flag!=0){
-					flag=0;
-					location.reload();
-				}
+			var $el = $(".table-responsive");
+			var flag = 1;
+			function anim() {
+				var st = $el.scrollTop();
+				var sb = $el.prop("scrollHeight")-$el.innerHeight();
+				$el.animate({scrollTop: st<(sb/2) ? sb : 0}, 400*document.getElementsByTagName("tr").length, anim);
 			}
+			function check() {
+				setInterval(keepchecking, 100);
+			}
+			function keepchecking() {
+			if($el.scrollTop() == 0 && flag!=0){
+				flag=0;
+				location.reload();
+			}
+				
+			}
+			setTimeout(anim, 750);
+			setTimeout(check, 5000);
 		</script>
 	</body>
 </html>

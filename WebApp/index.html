@@ -1,0 +1,124 @@
+<html>
+<head>
+	<title>Istituto Pilati</title>
+	<link rel="stylesheet" href="sito.css"> <!--INCLUSIONE CSS -->
+	<link rel="shortcut icon" href="lambdaLogo.ico"> 
+</head>
+
+<body onload="getData()">
+	<div id="clock" class="clock" align="right"></div>
+    <span class="black_bg">Istituto Pilati</span>
+    <hr> 
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a>Udienze</a>
+            <ul>
+                <li><a href="http://localhost/xampp/webapp/scegliFile.php">Carica File</a></li>
+            </ul>
+			<ul>
+                <li><a href="developers.html">Scorrevole</a></li>
+            </ul>
+			<ul>
+                <li><a href="developers.html">Fermo</a></li>
+            </ul>
+        </li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <p class="partxt"> <br>
+	<a href="https://www.istitutopilati.it" target="_blank">
+        <img src="Immagini/Pilati.jpg" alt="logoistituto" height="150" width="150" align="left" >
+	</a>
+    </p>
+	<br>
+	<br>
+    <br>
+	<br>
+	<br>
+	<br>
+	<br>
+    <img class="img2" src="2.jpg" alt="lambdaImage" height="417" width="893">
+
+	<script language="javascript">
+	function getData(){
+		var data=new Date();
+		var year=data.getYear();
+		var month=data.getMonth();
+		var day=data.getDate();
+		var hour=data.getHours();
+		var minute=data.getMinutes();
+		var second=data.getSeconds();
+		var weekDay=data.getDay();
+		switch(weekDay){
+			case 0:
+			weekDay="domenica";
+			break;
+			case 1:
+			weekDay="lunedì";
+			break;
+			case 2:
+			weekDay="martedì";
+			break;
+			case 3:
+			weekDay="mercoledì";
+			break;
+			case 4:
+			weekDay="giovedì";
+			break;
+			case 5:
+			weekDay="venerdì";
+			break;
+			case 6:
+			weekDay="sabato";
+			break;
+		}
+		if(second<10){
+			second="0"+second;
+		}
+		var ref=document.getElementById('clock');
+		switch(month+1){
+			case 1:
+			ref.innerHTML=day+" "+"gennaio"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			break;
+			case 2:
+			ref.innerHTML=day+" "+"febbraio"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			break;
+			case 3:
+			ref.innerHTML=weekDay+" "+day+" "+"marzo"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;
+			break;
+			case 4:
+			ref.innerHTML=day+" "+"aprile"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			break;
+			case 5:
+			ref.innerHTML=day+" "+"magggio"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			break;
+			case 6:
+			ref.innerHTML=day+" "+"giugno"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			break;
+			case 7:
+			ref.innerHTML=day+" "+"luglio"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			break;
+			case 8:
+			ref.innerHTML=day+" "+"agosto"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			break;
+			case 9:
+			ref.innerHTML=day+" "+"settembre"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			break;
+			case 10:
+			ref.innerHTML=day+" "+"ottobre"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			break;
+			case 11:
+			ref.innerHTML=day+" "+"novembre"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			break;
+			case 12:
+			ref.innerHTML=day+" "+"dicembre"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			break;
+		}
+		window.setTimeout("getData()",1000);
+	}
+	</script>
+</body>
+
+
+</html>
