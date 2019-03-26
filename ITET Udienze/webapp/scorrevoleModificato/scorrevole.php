@@ -46,7 +46,7 @@
 			<table>
 				<tr>
 				    
-					<th class=intestazionedata colspan=2><div style="float: left; width: calc(100%/3);"><?php echo date("d/m/Y"); ?></div>ITET Udienze<div style="float: right; width: calc(100%/3);"><?php echo date("H""i"); ?> </div></th>
+					<th class=intestazionedata colspan=2><div style="float: left; width: calc(100%/3);"><?php echo date("d/m/Y"); ?></div>ITET Udienze<div style="float: right; width: calc(100%/3);"><?php echo date("H:i"); ?></div></th>
 					
 				</tr>
 				<tr>
