@@ -83,7 +83,7 @@
 			.cellaStudente{
 				text-align:center;
 				width:20%;
-				color:#505050;
+				color:orange;
 				background-color:gainsboro;
 				font-size:20pt; 
 			}
