@@ -1,0 +1,67 @@
+html{
+    font-family:arial;
+}
+.table-responsive{
+    position: absolute;
+    top: 142px;
+    bottom: 8px;
+    left: 8px;
+    width: calc(100% - 16px);
+    overflow-y: auto;
+    overflow:hidden;				
+}
+.itp{
+    width: calc(100% - 16px);
+    position: absolute;
+    bottom: 8px;
+}
+.itpCella{
+    text-align:center;
+    height: 50px;
+    color:#332d2d;
+    background-color:rgba(167, 247, 243, 0.712);
+    font-size:16px;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+td,th{
+    padding:20px;
+    background:#eee;
+}
+
+.intestazionedata{
+    text-align: center;
+    background-color:#91BBFF;
+    font-size:20px;
+    height: 50px;
+}
+.intestazione{
+    width:50%;
+    background-color:#C1D9FF;
+    font-size:15px;
+    height: 50px;
+}
+.cellaStudente{
+    text-align:center;
+    width:20%;
+    color:#505050;
+    background-color:rgba(167, 247, 243, 0.712);
+    font-size:15pt;
+    
+}
+.cellaPrenotazione{
+    text-align:center;
+    width:20%;
+    color:#505050;
+    background-color:whitesmoke;
+    font-size:15pt;
+}
+#noudienze {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
