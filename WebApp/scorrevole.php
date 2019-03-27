@@ -184,7 +184,7 @@
 		}
 		if(!$hasDrawn) {
 			?>
-			  <h1 id=noudienze>Nessuna udienza prorammata per questa giornata.</h1>
+			  <h1 id=noudienze>Nessuna udienza programmata in questo orario.</h1>
 		<?php
 		}
 		?>

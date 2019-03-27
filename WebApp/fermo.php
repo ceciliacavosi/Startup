@@ -37,63 +37,74 @@
 				display: none;
 			}
 			html{
-				font-family:arial;
+    			font-family:arial;
 			}
+			
 			.table-responsive{
 				position: absolute;
-				overflow-y: auto;
 				top: 142px;
 				bottom: 8px;
 				left: 8px;
 				width: calc(100% - 16px);
+				overflow-y: auto;
+				overflow:hidden;				
 			}
+
 			.itp{
 				width: calc(100% - 16px);
 				position: absolute;
 				bottom: 8px;
 			}
+
 			.itpCella{
 				text-align:center;
-				height: 66px;
-				color:#505050;
-				background-color:whitesmoke;
+				height: 50px;
+				color:#332d2d;
+				background-color:rgba(167, 247, 243, 0.712);
 				font-size:16px;
 			}
+
 			table{
 				width:100%;
-                border-collapse: collapse;
+				border-collapse: collapse;
 			}
+
 			td,th{
-				padding:24px;
+				padding:20px;
 				background:#eee;
 			}
 
 			.intestazionedata{
+				text-align: center;
 				background-color:#91BBFF;
 				font-size:20px;
-				height: 66px;
+				height: 50px;
 			}
+
 			.intestazione{
 				width:50%;
 				background-color:#C1D9FF;
-				font-size:16px;
-				height: 66px;
-				font-weight:bold; 
+				font-size:15px;
+				height: 50px;
 			}
+
 			.cellaStudente{
 				text-align:center;
 				width:20%;
-				color:orange;
-				background-color:gainsboro;
-				font-size:20pt; 
+				color:#505050;
+				background-color:rgba(167, 247, 243, 0.712);
+				font-size:15pt;
+				
 			}
+
 			.cellaPrenotazione{
 				text-align:center;
 				width:20%;
 				color:#505050;
 				background-color:whitesmoke;
-				font-size:16pt;
+				font-size:15pt;
 			}
+			
 			#noudienze {
 				position: absolute;
 				top: 50%;
@@ -175,7 +186,7 @@
 
 		if(!$hasDrawn) {
 			?>
-			<h1 id=noudienze>Nessuna udienza prorammata per questa giornata.</h1>
+			<h1 id=noudienze>Nessuna udienza programmata in questo orario.</h1>
 			<?php
 		}
 		?>
