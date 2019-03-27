@@ -16,10 +16,10 @@
                 <li><a href="http://localhost/xampp/webapp/scegliFile.php">Carica File</a></li>
             </ul>
 			<ul>
-                <li><a href="developers.html">Scorrevole</a></li>
+                <li><a href="http://localhost/xampp/webapp/scorrevole.php">Scorrevole</a></li>
             </ul>
 			<ul>
-                <li><a href="developers.html">Fermo</a></li>
+                <li><a href="http://localhost/xampp/webapp/fermo.php">Fermo</a></li>
             </ul>
         </li>
     </ul>
@@ -28,7 +28,7 @@
     <br>
     <p class="partxt"> <br>
 	<a href="https://www.istitutopilati.it" target="_blank">
-        <img src="Immagini/Pilati.jpg" alt="logoistituto" height="150" width="150" align="left" >
+        <img src="Immagini/Pilatis.png" alt="logoistituto" height="150" width="150" align="left" >
 	</a>
     </p>
 	<br>
@@ -38,7 +38,7 @@
 	<br>
 	<br>
 	<br>
-    <img class="img2" src="2.jpg" alt="lambdaImage" height="417" width="893">
+    <img class="img2" src="Immagini/Wok.jpg" alt="lambdaImage" height="417" width="893">
 
 	<script language="javascript">
 	function getData(){
@@ -52,25 +52,25 @@
 		var weekDay=data.getDay();
 		switch(weekDay){
 			case 0:
-			weekDay="domenica";
+			weekDay="Domenica";
 			break;
 			case 1:
-			weekDay="lunedì";
+			weekDay="Luned&#236;";
 			break;
 			case 2:
-			weekDay="martedì";
+			weekDay="Marted&#236;";
 			break;
 			case 3:
-			weekDay="mercoledì";
+			weekDay="Mercoled&#236;";
 			break;
 			case 4:
-			weekDay="giovedì";
+			weekDay="Gioved&#236;";
 			break;
 			case 5:
-			weekDay="venerdì";
+			weekDay="Venerd&#236;";
 			break;
 			case 6:
-			weekDay="sabato";
+			weekDay="Sabato";
 			break;
 		}
 		if(second<10){
@@ -79,40 +79,40 @@
 		var ref=document.getElementById('clock');
 		switch(month+1){
 			case 1:
-			ref.innerHTML=day+" "+"gennaio"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			ref.innerHTML=day+" "+"Gennaio"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
 			break;
 			case 2:
-			ref.innerHTML=day+" "+"febbraio"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			ref.innerHTML=day+" "+"Febbraio"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
 			break;
 			case 3:
-			ref.innerHTML=weekDay+" "+day+" "+"marzo"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;
+			ref.innerHTML=weekDay+" "+day+" "+"Marzo"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;
 			break;
 			case 4:
-			ref.innerHTML=day+" "+"aprile"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			ref.innerHTML=day+" "+"Aprile"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
 			break;
 			case 5:
-			ref.innerHTML=day+" "+"magggio"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			ref.innerHTML=day+" "+"Maggio"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
 			break;
 			case 6:
-			ref.innerHTML=day+" "+"giugno"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			ref.innerHTML=day+" "+"Giugno"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
 			break;
 			case 7:
-			ref.innerHTML=day+" "+"luglio"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			ref.innerHTML=day+" "+"Luglio"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
 			break;
 			case 8:
-			ref.innerHTML=day+" "+"agosto"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			ref.innerHTML=day+" "+"Agosto"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
 			break;
 			case 9:
-			ref.innerHTML=day+" "+"settembre"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			ref.innerHTML=day+" "+"Settembre"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
 			break;
 			case 10:
-			ref.innerHTML=day+" "+"ottobre"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			ref.innerHTML=day+" "+"Ottobre"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
 			break;
 			case 11:
-			ref.innerHTML=day+" "+"novembre"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			ref.innerHTML=day+" "+"Novembre"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
 			break;
 			case 12:
-			ref.innerHTML=day+" "+"dicembre"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
+			ref.innerHTML=day+" "+"Dicembre"+" "+(year+1900)+"<br>"+"<br>"+hour+":"+minute+":"+second;;
 			break;
 		}
 		window.setTimeout("getData()",1000);
