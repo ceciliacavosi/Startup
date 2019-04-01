@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<title>slidemanuale</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<body>
+
+<h2 class="text">Slide Manuale</h2>
+
+<div class="images">
+    <img class="mySlides" src="1.jpg" height="500" width="500" align="center">
+    <img class="mySlides" src="2.jpg" height="500" width="500" align="center">
+    <img class="mySlides" src="3.jpg" height="500" width="500" align="center">
+    <img class="mySlides" src="4.jpg" height="500" width="500" align="center">
+    <img class="mySlides" src="5.jpg" height="500" width="500" align="center">
+    <img class="mySlides" src="6.jpg" height="500" width="500" align="center">
+    <img class="mySlides" src="7.jpg" height="500" width="500" align="center">
+    <img class="mySlides" src="8.jpg" height="500" width="500" align="center">
+    <img class="mySlides" src="9.jpg" height="500" width="500" align="center">
+    <img class="mySlides" src="10.jpg" height="500" width="500" align="center">
+     
+
+  <button class="button-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="button-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
