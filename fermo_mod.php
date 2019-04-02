@@ -1,12 +1,11 @@
 <html>
-	
 	<head>
 	<?php require("css.php");?>
 	<button class="hamburger">&#9776;</button>
-  <button class="cross">&#735;</button>
-  <button class="hamburger">&#9776;</button>
-  <button class="cross">&#735;</button>
-  <div class="menu">
+	<button class="cross">&#735;</button>
+	<button class="hamburger">&#9776;</button>
+	<button class="cross">&#735;</button>
+	<div class="menu">
 		<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a class="udienze">Udienze</a>
@@ -20,7 +19,7 @@
 					</ol>
 					</li>
 		</ul>
-</div>
+	</div>
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 	<script src="index.js"></script>
 	
@@ -99,45 +98,43 @@
 
 						if(!$show) { continue; }
 						?>
-<br>
-<div class="celle">
-	<div class="studente">
-		<p><b><?php 
-		$array = array($udienza->studente); //parametro da passare non corretto
-		print_r(insertionSort($array));
-		?>
 		<br>
-		<?php  echo $udienza->classe;?>
-		</b></p>
-	</div>
-				
-		<div class="professore">
-			<p>
-			
-			<?php
-			$a;
-			$b; 
-			foreach($udienza->prenotazioni as $prenotazione) {
-			
-			
-			?>
-				<img class="img2" src="Immagini/freccia.png"><?php echo " ".$prenotazione->orario;
-				echo " prof. " .$prenotazione->docente;?> &nbsp;
-				<b><?php echo materia($prenotazione->docente, $udienza->classe, $docenti);	
-				?></b>
+		<div class="celle">
+			<div class="studente">
+				<p><b><?php 
+				$array = array($udienza->studente); //parametro da passare non corretto
+				print_r(insertionSort($array));
+				?>
 				<br>
-				<?php
-			}
-		?> &nbsp;&nbsp;&nbsp;
-			
-			</p>
-		</div>
+				<?php  echo $udienza->classe;?>
+				</b></p>
+			</div>
+						
+				<div class="professore">
+					<p>
 					
-      		<?php
-                }
-    		?>
-	</div>
-</div>
+					<?php
+					$a;
+					$b; 
+					foreach($udienza->prenotazioni as $prenotazione) {
+					?>
+						<img class="img2" src="Immagini/freccia.png"><?php echo " ".$prenotazione->orario;
+						echo " prof. " .$prenotazione->docente;?> &nbsp;
+						<b><?php echo materia($prenotazione->docente, $udienza->classe, $docenti);	
+						?></b>
+						<br>
+						<?php
+					}
+				?> &nbsp;&nbsp;&nbsp;
+					
+					</p>
+				</div>
+							
+					<?php
+						}
+					?>
+			</div>
+		</div>
             <?php 
         }
 		?>
@@ -205,95 +202,110 @@
 
 
         </style>
-	<script language="javascript">
-	function confronto($stringa1, $stringa2){
-		
+		<script language="javascript">
+		function confronto($stringa1, $stringa2){
+			
+		}
+		function getData(){
+			var data=new Date();
+			var year=data.getYear();
+			var month=data.getMonth();
+			var day=data.getDate();
+			var hour=data.getHours();
+			var minute=data.getMinutes();
+			var second=data.getSeconds();
+			var weekDay=data.getDay();
+			switch(weekDay){
+				case 0:
+				weekDay="Domenica";
+				break;
+				case 1:
+				weekDay="Luned&#236;";
+				break;
+				case 2:
+				weekDay="Marted&#236;";
+				break;
+				case 3:
+				weekDay="Mercoled&#236;";
+				break;
+				case 4:
+				weekDay="Gioved&#236;";
+				break;
+				case 5:
+				weekDay="Venerd&#236;";
+				break;
+				case 6:
+				weekDay="Sabato";
+				break;
+			}
+			if(day<10){
+				day="0"+day;
+			}
+			if(hour<10){
+				hour="0"+hour;
+			}
+			if(minute<10){
+				minute="0"+minute;
+			}
+			if(second<10){
+				second="0"+second;
+			}
+			var ref=document.getElementById('clock');
+			switch(month+1){
+				case 1:
+				ref.innerHTML=weekDay+" "+day+" "+"Gennaio"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
+				break;
+				case 2:
+				ref.innerHTML=weekDay+" "+day+" "+"Febbraio"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
+				break;
+				case 3:
+				ref.innerHTML=weekDay+" "+" "+day+" "+"Marzo"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;
+				break;
+				case 4:
+				ref.innerHTML=weekDay+" "+day+" "+"Aprile"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
+				break;
+				case 5:
+				ref.innerHTML=weekDay+" "+day+" "+"Maggio"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
+				break;
+				case 6:
+				ref.innerHTML=weekDay+" "+day+" "+"Giugno"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
+				break;
+				case 7:
+				ref.innerHTML=weekDay+" "+day+" "+"Luglio"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
+				break;
+				case 8:
+				ref.innerHTML=weekDay+" "+day+" "+"Agosto"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
+				break;
+				case 9:
+				ref.innerHTML=weekDay+" "+day+" "+"Settembre"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
+				break;
+				case 10:
+				ref.innerHTML=weekDay+" "+day+" "+"Ottobre"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
+				break;
+				case 11:
+				ref.innerHTML=weekDay+" "+day+" "+"Novembre"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
+				break;
+				case 12:
+				ref.innerHTML=weekDay+" "+day+" "+"Dicembre"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
+				break;
+			}
+			window.setTimeout("getData()",1000);
+		}
+		</script>
+	</body>
+
+	<?php 
+	$today = date("G-i");
+	$data = $prenotazione->orario;
+	
+	$today_t = strtotime($today);
+	$data_t = strtotime($data);
+	
+	if($today_t < $data_t){
+		//stampa tutto
 	}
-	function getData(){
-    var data=new Date();
-    var year=data.getYear();
-    var month=data.getMonth();
-    var day=data.getDate();
-    var hour=data.getHours();
-    var minute=data.getMinutes();
-    var second=data.getSeconds();
-    var weekDay=data.getDay();
-    switch(weekDay){
-        case 0:
-        weekDay="Domenica";
-        break;
-        case 1:
-        weekDay="Luned&#236;";
-        break;
-        case 2:
-        weekDay="Marted&#236;";
-        break;
-        case 3:
-        weekDay="Mercoled&#236;";
-        break;
-        case 4:
-        weekDay="Gioved&#236;";
-        break;
-        case 5:
-        weekDay="Venerd&#236;";
-        break;
-        case 6:
-        weekDay="Sabato";
-        break;
-    }
-    if(day<10){
-        day="0"+day;
-    }
-    if(hour<10){
-        hour="0"+hour;
-    }
-    if(minute<10){
-        minute="0"+minute;
-    }
-    if(second<10){
-        second="0"+second;
-    }
-    var ref=document.getElementById('clock');
-    switch(month+1){
-        case 1:
-        ref.innerHTML=weekDay+" "+day+" "+"Gennaio"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
-        break;
-        case 2:
-        ref.innerHTML=weekDay+" "+day+" "+"Febbraio"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
-        break;
-        case 3:
-        ref.innerHTML=weekDay+" "+" "+day+" "+"Marzo"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;
-        break;
-        case 4:
-        ref.innerHTML=weekDay+" "+day+" "+"Aprile"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
-        break;
-        case 5:
-        ref.innerHTML=weekDay+" "+day+" "+"Maggio"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
-        break;
-        case 6:
-        ref.innerHTML=weekDay+" "+day+" "+"Giugno"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
-        break;
-        case 7:
-        ref.innerHTML=weekDay+" "+day+" "+"Luglio"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
-        break;
-        case 8:
-        ref.innerHTML=weekDay+" "+day+" "+"Agosto"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
-        break;
-        case 9:
-        ref.innerHTML=weekDay+" "+day+" "+"Settembre"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
-        break;
-        case 10:
-        ref.innerHTML=weekDay+" "+day+" "+"Ottobre"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
-        break;
-        case 11:
-        ref.innerHTML=weekDay+" "+day+" "+"Novembre"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
-        break;
-        case 12:
-        ref.innerHTML=weekDay+" "+day+" "+"Dicembre"+" "+(year+1900)+" "+" "+hour+":"+minute+":"+second;;
-        break;
-    }
-    window.setTimeout("getData()",1000);
-}
-</script>
-    </body>
- </html>
+	else{
+		echo "Nessuna sostituzione disponibile";
+	}
+	?>
+</html>
