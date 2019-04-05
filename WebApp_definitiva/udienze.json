@@ -1,0 +1,256 @@
+{"udienze":
+    [
+        {
+            "studente":"Zanoni Diego","classe":"5 ELEB","prenotazioni":
+            [
+                {
+                    "docente":"Benetello Luca","orario":"9:21"
+                }
+            ]
+        },
+        {
+            "studente":"Campi Gianluca","classe":"1 TA","prenotazioni":
+            [
+                {
+                    "docente":"Calvo Iolanka","orario":"11:20"
+                },
+                {
+                    "docente":"Malalan Giuliana","orario":"11:36"
+                },
+                {
+                    "docente":"Marasco Roberta Ursula Sveva","orario":"12:01"
+                },
+                {
+                    "docente":"Tranquillini Roberto","orario":"9:05"
+                },
+                {
+                    "docente":"Zucal Onorio","orario":"9:46"
+                }
+            ]
+        },
+        {
+            "studente":"Aliprandini Tiziano","classe":"2 TE","prenotazioni":
+            [
+                {
+                    "docente":"Calvo Iolanka","orario":"11:28"
+                },
+                {
+                    "docente":"Paragallo Manuela","orario":"9:05"
+                },
+                {
+                    "docente":"Scarbolo Claudio","orario":"9:30"
+                },
+                {
+                    "docente":"Tranquillini Roberto","orario":"8:56"
+                }
+            ]
+        },
+        {
+            "studente":"Larcher Giulia","classe":"2 TA","prenotazioni":
+            [
+                {
+                    "docente":"Calvo Iolanka","orario":"11:53"
+                }
+            ]
+        },
+        {
+            "studente":"Biada Irene","classe":"2 TA","prenotazioni":
+            [
+                {
+                    "docente":"Calvo Iolanka","orario":"12:01"
+                },
+                {
+                    "docente":"Magnani Ilaria","orario":"11:11"
+                },
+                {
+                    "docente":"Malalan Giuliana","orario":"11:53"
+                },
+                {
+                    "docente":"Tranquillini Roberto","orario":"9:13"
+                },
+                {
+                    "docente":"Zucal Onorio","orario":"9:38"
+                }
+            ]
+        },
+        {
+            "studente":"Carrara Simone","classe":"5 AFMB","prenotazioni":
+            [
+                {
+                    "docente":"De Concini Fabiola","orario":"10:30"
+                },
+                {
+                    "docente":"Salazer Lisa","orario":"10:11"
+                }
+            ]
+        },
+        {
+            "studente":"Zattoni Clara","classe":"1 ECC","prenotazioni":
+            [
+                {
+                    "docente":"De Concini Fabiola","orario":"10:38"
+                }
+            ]
+        },
+        {
+            "studente":"Smalzi Andrea","classe":"3 MMEB","prenotazioni":
+            [
+                {
+                    "docente":"Inama Saverio","orario":"8:40"
+                },
+                {
+                    "docente":"Paragallo Manuela","orario":"8:52"
+                }
+            ]
+        },
+        {
+            "studente":"Valentini Mirco","classe":"3 MMEB","prenotazioni":
+            [
+                {
+                    "docente":"Inama Saverio","orario":"9:05"
+                },
+                {
+                    "docente":"Paragallo Manuela","orario":"9:17"
+                }
+            ]
+        },
+        {
+            "studente":"De Zordo Filippo","classe":"3 CATA","prenotazioni":
+            [
+                {
+                    "docente":"La Grutta Emanuela","orario":"11:10"
+                }
+            ]
+        },
+        {
+            "studente":"Pennesi Daniele","classe":"2 TA","prenotazioni":
+            [
+                {
+                    "docente":"Magnani Ilaria","orario":"10:30"
+                },
+                {
+                    "docente":"Malalan Giuliana","orario":"11:20"
+                },
+                {
+                    "docente":"Zucal Onorio","orario":"10:11"
+                }
+            ]
+        },
+        {
+            "studente":"Casagrande Daniele","classe":"1 TB","prenotazioni":
+            [
+                {
+                    "docente":"Magnani Ilaria","orario":"10:38"
+                },
+                {
+                    "docente":"Marasco Roberta Ursula Sveva","orario":"11:36"
+                }
+            ]
+        },
+        {
+            "studente":"Menapace Samuel","classe":"2 TA","prenotazioni":
+            [
+                {
+                    "docente":"Magnani Ilaria","orario":"10:46"
+                }
+            ]
+        },
+        {
+            "studente":"Emer Gabriele","classe":"1 TB","prenotazioni":
+            [
+                {
+                    "docente":"Magnani Ilaria","orario":"11:03"
+                }
+            ]
+        },
+        {
+            "studente":"Eccher Sofia","classe":"3 TURB","prenotazioni":
+            [
+                {
+                    "docente":"Malalan Giuliana","orario":"11:28"
+                }
+            ]
+        },
+        {
+            "studente":"Lotti Mirko","classe":"1 TC","prenotazioni":
+            [
+                {
+                    "docente":"Marasco Roberta Ursula Sveva","orario":"11:20"
+                },
+                {
+                    "docente":"Tranquillini Roberto","orario":"8:40"
+                },
+                {
+                    "docente":"Zucal Onorio","orario":"9:30"
+                }
+            ]
+        },
+        {
+            "studente":"Zappini Elena","classe":"2 ECA","prenotazioni":
+            [
+                {
+                    "docente":"Marasco Roberta Ursula Sveva","orario":"11:28"
+                }
+            ]
+        },
+        {
+            "studente":"Cicolini Michela","classe":"2 ECB","prenotazioni":
+            [
+                {
+                    "docente":"Marasco Roberta Ursula Sveva","orario":"11:45"
+                }
+            ]
+        },
+        {
+            "studente":"Perli Alessandro","classe":"3 MMEB","prenotazioni":
+            [
+                {
+                    "docente":"Paragallo Manuela","orario":"8:40"
+                }
+            ]
+        },
+        {
+            "studente":"Tenni Davide","classe":"3 AFMB","prenotazioni":
+            [
+                {
+                    "docente":"Salazer Lisa","orario":"9:55"
+                }
+            ]
+        },
+        {
+            "studente":"Zaglou Sami","classe":"3 AFMA","prenotazioni":
+            [
+                {
+                    "docente":"Salazer Lisa","orario":"10:03"
+                }
+            ]
+        },
+        {
+            "studente":"Cattani Daniel","classe":"3 INTA","prenotazioni":
+            [
+                {
+                    "docente":"Tranquillini Roberto","orario":"8:48"
+                }
+            ]
+        },
+        {
+            "studente":"Eccher Federico","classe":"2 TB","prenotazioni":
+            [
+                {
+                    "docente":"Tranquillini Roberto","orario":"9:21"
+                },
+                {
+                    "docente":"Zucal Onorio","orario":"10:03"
+                }
+            ]
+        },
+        {
+            "studente":"Zadra Matteo","classe":"1 TA","prenotazioni":
+            [
+                {
+                    "docente":"Zucal Onorio","orario":"9:55"
+                }
+            ]
+        }
+    ]
+}
