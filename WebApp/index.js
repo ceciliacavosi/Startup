@@ -25,4 +25,6 @@ $(".udienze").click(function(){
     $(".subMenu").show();
 });
 
-
+$(".blank").click(function(){
+$(".subMenu").hide();
+});

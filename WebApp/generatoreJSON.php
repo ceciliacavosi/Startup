@@ -56,6 +56,7 @@ while($i < count($pdfText_2)) {
         if(!endsWith($pdfText_2[$i++], "posto")) {
             $pdfText_2[$i-1] = substr($pdfText_2[$i-1], 2);
             $orario = substr($pdfText_2[$i-1], 0, strpos($pdfText_2[$i-1], " "));
+            $giorno = substr($pdfText_2[1],0,strpos($pdfText_2[1]," "));
             $pdfText_2[$i-1] = substr($pdfText_2[$i-1], strpos($pdfText_2[$i-1], " ")+1);
             $studente = ucwords(strtolower(substr($pdfText_2[$i-1], 0, strpos($pdfText_2[$i-1], "-")-1)));
             $pdfText_2[$i-1] = substr($pdfText_2[$i-1], strpos($pdfText_2[$i-1], "-")+2);
@@ -64,9 +65,8 @@ while($i < count($pdfText_2)) {
             $prenotazione = array(
                 "docente"=>$docente,
                 "orario"=>$orario,
+                "giorno"=>$giorno
             );
-            echo $docente."<br>";
-
             if(searchStudente($udienze, $studente) == -1) {
                 $udienza = array(
                     "studente"=>$studente,
@@ -85,9 +85,10 @@ while($i < count($pdfText_2)) {
 if(file_exists("udienze.json")) {
     unlink("udienze.json");
 }
-file_put_contents("udienze.json", json_encode(array("udienze"=>$udienze)));
 
-    
+file_put_contents("udienze.json", json_encode(array("udienze"=>$udienze)));
+echo $docente."<br>";
+echo $studente."<br>";
 
 //   |-----------------------------------------------------------------------------------------------------|
 //   |echo "Hello World"; <-- Esempio di stampa                                                            |
@@ -113,4 +114,21 @@ file_put_contents("udienze.json", json_encode(array("udienze"=>$udienze)));
 //   |    echo $pieces[1]; // piece2                              |                                        |
 //   |                                                                                                     |
 //   |-----------------------------------------------------------------------------------------------------|
+
+
+/*
+
+https://guizzardig.wordpress.com/2017/05/02/codifica-e-decodifica-di-messaggi-in-php/
+
+<?php
+$testo = “Messaggio da inviare”;
+$key = “password”;
+$encoded = openssl_encrypt($testo, “AES-256-ECB”, $key);
+$decoded = openssl_decrypt($encoded, “AES-256-ECB”, $key);
+echo $encoded;
+echo “\r\n”;
+echo $decoded;
+
+
+*/ 
 ?>
